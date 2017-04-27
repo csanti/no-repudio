@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Cliente no repudio</h3>
+            <button id="start-nr" type="button" class="btn btn-primary" ng-click="generateRSA()">Generar claves</button>
+            <button id="start-nr" type="button" class="btn btn-primary" ng-click="startnr()">Comenzar no repudio</button>
+        </div>
+        <div class="col-md-9">
+            <div style="line-height:3em;overflow-y:scroll;padding:5px;">
+                <p ng-repeat="log in logs">{{log.content}}</p>
+            </div>
+        </div>
+    </div>
+</div>
